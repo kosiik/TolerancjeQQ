@@ -1,0 +1,24 @@
+#ifndef WALEK_H
+#define WALEK_H
+#include "mainwindow.h"
+
+class walek
+{
+public:
+    walek();
+void sprawdzanie_walka_h();
+void sprawdzanie_walka_c();
+void sprawdzanie_walka_d();
+void sprawdzanie_walka_e();
+void sprawdzanie_walka_f();
+void sprawdzanie_walka_g();
+void sprawdzanie_walka_j();
+void sprawdzanie_walka_k();
+void sprawdzanie_walka_m();
+void sprawdzanie_walka_n();
+void sprawdzanie_walka_p();
+void sprawdzanie_walka_r();
+void sprawdzanie_walka_s();
+};
+
+#endif // WALEK_H
