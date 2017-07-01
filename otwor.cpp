@@ -446,42 +446,42 @@ void MainWindow::sprawdzanie_otworu_D()
         else if (ui->comboBox->currentText()=="E7" && ui->doubleSpinBox->value()<=6)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,032\n+0,030");
+            ui->label_2->setText("+0,032\n+0,020");
         }
         else if (ui->comboBox->currentText()=="E7" && ui->doubleSpinBox->value()<=10)
         {
            ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,040\n+0,040");
+            ui->label_2->setText("+0,040\n+0,025");
         }
         else if (ui->comboBox->currentText()=="E7" && ui->doubleSpinBox->value()<=18)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,050\n+0,050");
+            ui->label_2->setText("+0,050\n+0,032");
         }
         else if (ui->comboBox->currentText()=="E7" && ui->doubleSpinBox->value()<=30)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,061\n+0,065");
+            ui->label_2->setText("+0,061\n+0,040");
         }
         else if (ui->comboBox->currentText()=="E7" && ui->doubleSpinBox->value()<=50)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,075\n+0,080");
+            ui->label_2->setText("+0,075\n+0,050");
         }
         else if (ui->comboBox->currentText()=="E7" && ui->doubleSpinBox->value()<=80)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,090\n+0,100");
+            ui->label_2->setText("+0,090\n+0,080");
         }
         else if (ui->comboBox->currentText()=="E7" && ui->doubleSpinBox->value()<=120)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,107\n+0,120");
+            ui->label_2->setText("+0,107\n+0,072");
         }
         else if (ui->comboBox->currentText()=="E7" && ui->doubleSpinBox->value()<=180)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,125\n+0,145");
+            ui->label_2->setText("+0,125\n+0,085");
         }
 
         //E8
@@ -493,42 +493,42 @@ void MainWindow::sprawdzanie_otworu_D()
         else if (ui->comboBox->currentText()=="E8" && ui->doubleSpinBox->value()<=6)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,038\n+0,030");
+            ui->label_2->setText("+0,038\n+0,020");
         }
         else if (ui->comboBox->currentText()=="E8" && ui->doubleSpinBox->value()<=10)
         {
            ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,047\n+0,040");
+            ui->label_2->setText("+0,047\n+0,025");
         }
         else if (ui->comboBox->currentText()=="E8" && ui->doubleSpinBox->value()<=18)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,059\n+0,050");
+            ui->label_2->setText("+0,059\n+0,032");
         }
         else if (ui->comboBox->currentText()=="E8" && ui->doubleSpinBox->value()<=30)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,073\n+0,065");
+            ui->label_2->setText("+0,073\n+0,040");
         }
         else if (ui->comboBox->currentText()=="E8" && ui->doubleSpinBox->value()<=50)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,089\n+0,080");
+            ui->label_2->setText("+0,089\n+0,050");
         }
         else if (ui->comboBox->currentText()=="E8" && ui->doubleSpinBox->value()<=80)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,106\n+0,100");
+            ui->label_2->setText("+0,106\n+0,080");
         }
         else if (ui->comboBox->currentText()=="E8" && ui->doubleSpinBox->value()<=120)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,126\n+0,120");
+            ui->label_2->setText("+0,126\n+0,072");
         }
         else if (ui->comboBox->currentText()=="E8" && ui->doubleSpinBox->value()<=180)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,148\n+0,145");
+            ui->label_2->setText("+0,148\n+0,085");
         }
 }
         void MainWindow::sprawdzanie_otworu_F()
@@ -683,7 +683,7 @@ void MainWindow::sprawdzanie_otworu_D()
         if (ui->comboBox->currentText()=="H5" && ui->doubleSpinBox->value()<=2)
         {
             ui->label->setText(ui->doubleSpinBox->text());
-            ui->label_2->setText("+0,004\n+0,002");
+            ui->label_2->setText("+0,004\n+0");
         }
         else if (ui->comboBox->currentText()=="H5" && ui->doubleSpinBox->value()<=6)
         {

@@ -30,7 +30,6 @@ sprawdzanie_otworu_E();
 sprawdzanie_otworu_F();
 sprawdzanie_otworu_G();
 sprawdzanie_otworu_H();
-
 sprawdzanie_walka_h();
 }
 
@@ -43,6 +42,11 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_pushButton_4_clicked()
 {
+    sprawdzanie_walka_a();
+   sprawdzanie_walka_d();
+   sprawdzanie_walka_e();
+   sprawdzanie_walka_f();
+   sprawdzanie_walka_g();
    sprawdzanie_walka_h();
 }
 

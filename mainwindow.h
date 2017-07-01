@@ -25,6 +25,11 @@ public:
      void sprawdzanie_otworu_G();
      void sprawdzanie_otworu_H();
 
+     void sprawdzanie_walka_a();
+     void sprawdzanie_walka_d();
+     void sprawdzanie_walka_e();
+     void sprawdzanie_walka_f();
+     void sprawdzanie_walka_g();
      void sprawdzanie_walka_h();
 
     void przelicz_calemm(); //zakladka 3

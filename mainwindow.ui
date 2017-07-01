@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -380,7 +380,7 @@
        </property>
        <item>
         <property name="text">
-         <string>c11</string>
+         <string>a11</string>
         </property>
        </item>
        <item>
@@ -400,16 +400,6 @@
        </item>
        <item>
         <property name="text">
-         <string>d11</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>e6</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
          <string>e7</string>
         </property>
        </item>
@@ -420,22 +410,7 @@
        </item>
        <item>
         <property name="text">
-         <string>e9</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>f6</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
          <string>f7</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>f8</string>
         </property>
        </item>
        <item>
@@ -446,21 +421,6 @@
        <item>
         <property name="text">
          <string>g6</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>g7</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>h3</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>h4</string>
         </property>
        </item>
        <item>
@@ -515,47 +475,7 @@
        </item>
        <item>
         <property name="text">
-         <string>js4</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>js12</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>js16</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>k5</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
          <string>k6</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>k8</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>k10</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>k11</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>m5</string>
         </property>
        </item>
        <item>
@@ -570,22 +490,12 @@
        </item>
        <item>
         <property name="text">
-         <string>n5</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
          <string>n6</string>
         </property>
        </item>
        <item>
         <property name="text">
          <string>n7</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>p5</string>
         </property>
        </item>
        <item>
@@ -606,21 +516,6 @@
        <item>
         <property name="text">
          <string>r6</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>r7</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>s6</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>s7</string>
         </property>
        </item>
       </widget>
@@ -650,6 +545,19 @@
        </property>
        <property name="maximum">
         <number>600</number>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_12">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>71</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="buttonSymbols">
+        <enum>QAbstractSpinBox::NoButtons</enum>
        </property>
       </widget>
      </widget>
