@@ -519,11 +519,552 @@ void MainWindow::sprawdzanie_walka_h()
     else if (ui->comboBox_3->currentText()=="h5" && ui->doubleSpinBox_12->value()<=120)
     {
         ui->label_4->setText(ui->doubleSpinBox_12->text());
-        ui->label_3->setText("-0,015\n-0,012");
+        ui->label_3->setText("-0,015\n+0");
     }
     else if (ui->comboBox_3->currentText()=="h5" && ui->doubleSpinBox_12->value()<=180)
     {
        ui->label_4->setText(ui->doubleSpinBox_12->text());
-        ui->label_3->setText("-0,018\n-0,014");
+        ui->label_3->setText("-0,018\n+0");
+    }
+
+    //h6
+
+    if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,006\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,008\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,009\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,011\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,013\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,016\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,019\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,022\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h6" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,025\n+0");
+    }
+
+    //h7
+    if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,010\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,012\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,015\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,018\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,021\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,025\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,030\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,035\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h7" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,040\n+0");
+    }
+
+    //h8
+
+    if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,14\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,018\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,022\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,027\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,033\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,039\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,046\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,054\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h8" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,063\n+0");
+    }
+
+
+    //h9
+
+    if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,025\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,030\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,036\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,043\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,052\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,062\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,074\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,087\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h9" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,100\n+0");
+    }
+
+    //h10
+
+
+    if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,040\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,048\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,058\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,070\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,084\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,100\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,120\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,140\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h10" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,160\n+0");
+    }
+
+
+    //h11
+
+    if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,060\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,075\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,090\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,110\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,130\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,160\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,19\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,220\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,250\n+0");
+    }
+
+    //h12
+
+    if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,100\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,120\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,150\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,180\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,210\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,250\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,300\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,350\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h12" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,400\n+0");
+    }
+
+    //h13
+
+    if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,140\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,180\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,220\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,270\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,330\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,390\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,460\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,540\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h13" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,630\n+0");
+    }
+}
+
+//sprawdzanie j
+
+void MainWindow::sprawdzanie_walka_j()
+{
+    if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,004\n-0,002");
+    }
+    else if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,006\n-0,002");
+    }
+    else if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,007\n-0,002");
+    }
+    else if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,008\n-0,003");
+    }
+    else if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,009\n-0,004");
+    }
+    else if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,011\n-0,005");
+    }
+    else if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,012\n-0,007");
+    }
+    else if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,013\n-0,009");
+    }
+    else if (ui->comboBox_3->currentText()=="j6" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,014\n-0,011");
+    }
+}
+
+//sprawdzanie k
+
+
+void MainWindow::sprawdzanie_walka_k()
+{
+    if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,006\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,009\n+0,001");
+    }
+    else if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,010\n+0,001");
+    }
+    else if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,012\n+0,001");
+    }
+    else if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,015\n+0,002");
+    }
+    else if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,018\n+0,002");
+    }
+    else if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,021\n+0,002");
+    }
+    else if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,025\n+0,003");
+    }
+    else if (ui->comboBox_3->currentText()=="k6" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,028\n+0,003");
+    }
+}
+
+
+//sprawdzanie p
+
+void MainWindow::sprawdzanie_walka_p()
+{
+    if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,012\n+0,006");
+    }
+    else if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,020\n+0,012");
+    }
+    else if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,024\n+0,015");
+    }
+    else if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,029\n+0,018");
+    }
+    else if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,035\n+0,022");
+    }
+    else if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,042\n+0,026");
+    }
+    else if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,051\n+0,032");
+    }
+    else if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,059\n+0,037");
+    }
+    else if (ui->comboBox_3->currentText()=="p6" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("+0,068\n+0,043");
     }
 }

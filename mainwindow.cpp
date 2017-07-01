@@ -30,6 +30,14 @@ sprawdzanie_otworu_E();
 sprawdzanie_otworu_F();
 sprawdzanie_otworu_G();
 sprawdzanie_otworu_H();
+sprawdzanie_otworu_JS();
+sprawdzanie_otworu_J();
+sprawdzanie_otworu_K();
+sprawdzanie_otworu_M();
+sprawdzanie_otworu_N();
+sprawdzanie_otworu_P();
+sprawdzanie_otworu_R();
+
 sprawdzanie_walka_h();
 }
 
@@ -48,6 +56,9 @@ void MainWindow::on_pushButton_4_clicked()
    sprawdzanie_walka_f();
    sprawdzanie_walka_g();
    sprawdzanie_walka_h();
+   sprawdzanie_walka_j();
+   sprawdzanie_walka_k();
+   sprawdzanie_walka_p();
 }
 
 void MainWindow::on_comboBox_5_activated(const QString &arg1)

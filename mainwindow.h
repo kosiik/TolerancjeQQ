@@ -24,6 +24,14 @@ public:
      void sprawdzanie_otworu_F();
      void sprawdzanie_otworu_G();
      void sprawdzanie_otworu_H();
+     void sprawdzanie_otworu_JS();
+     void sprawdzanie_otworu_J();
+     void sprawdzanie_otworu_K();
+     void sprawdzanie_otworu_M();
+     void sprawdzanie_otworu_N();
+     void sprawdzanie_otworu_P();
+     void sprawdzanie_otworu_R();
+
 
      void sprawdzanie_walka_a();
      void sprawdzanie_walka_d();
@@ -31,6 +39,9 @@ public:
      void sprawdzanie_walka_f();
      void sprawdzanie_walka_g();
      void sprawdzanie_walka_h();
+     void sprawdzanie_walka_j();
+     void sprawdzanie_walka_k();
+     void sprawdzanie_walka_p();
 
     void przelicz_calemm(); //zakladka 3
 
