@@ -30,6 +30,14 @@ sprawdzanie_otworu_E();
 sprawdzanie_otworu_F();
 sprawdzanie_otworu_G();
 sprawdzanie_otworu_H();
+sprawdzanie_otworu_JS();
+sprawdzanie_otworu_J();
+sprawdzanie_otworu_K();
+sprawdzanie_otworu_M();
+sprawdzanie_otworu_N();
+sprawdzanie_otworu_P();
+sprawdzanie_otworu_R();
+
 sprawdzanie_walka_h();
 }
 
