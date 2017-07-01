@@ -11,15 +11,15 @@ void MainWindow::przelicz_calemm()
     //PRZELICZAMY CALE
     if (ui->comboBox_2->currentText()=="Cale na mm")
     {
-        double a=ui->lineEdit->text().toDouble();
-        double b=a*25.4;
-        ui->lineEdit_2->setText(QString::number(b));
+        double a=ui->doubleSpinBox_10->value();
+        double b=ui->doubleSpinBox_8->value(); //25,4
+        ui->doubleSpinBox_11->setValue(a*b);
     }
     else
     {
-        double c=ui->lineEdit->text().toDouble();
-        double d=c/25.4;
-        ui->lineEdit_2->setText(QString::number(d));
+        double c=ui->doubleSpinBox_10->value();
+        double d=ui->doubleSpinBox_8->value(); //25,4
+        ui->doubleSpinBox_11->setValue(c/d);
     }
     //KONIEC PRZELICZEN
 }

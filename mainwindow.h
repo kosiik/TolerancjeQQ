@@ -35,6 +35,12 @@ private slots:
 
     void on_pushButton_4_clicked();
 
+    void on_comboBox_5_activated(const QString &arg1);
+
+    void on_comboBox_4_activated(const QString &arg1);
+
+    void on_pushButton_5_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

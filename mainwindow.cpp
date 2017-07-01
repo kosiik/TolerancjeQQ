@@ -45,3 +45,73 @@ void MainWindow::on_pushButton_4_clicked()
 {
    sprawdzanie_walka_h();
 }
+
+void MainWindow::on_comboBox_5_activated(const QString &arg1)
+{
+
+    if (ui->comboBox_5->currentText()=="Aluminium")
+    {
+    double aa=2720;
+    ui->doubleSpinBox_7->setValue(aa);
+    }
+    else if (ui->comboBox_5->currentText()=="Stal")
+    {
+    double as=7856;
+    ui->doubleSpinBox_7->setValue(as);
+    }
+    else if (ui->comboBox_5->currentText()=="Brąz")
+    {
+       double ab=8850;
+       ui->doubleSpinBox_7->setValue(ab);
+    }
+}
+
+
+
+void MainWindow::on_comboBox_4_activated(const QString &arg1)
+{
+    if (ui->comboBox_4->currentText()=="Rura []")
+    {
+        ui->doubleSpinBox_3->setEnabled(true);
+        ui->doubleSpinBox_4->setEnabled(true);
+        ui->label_8->setText("długość");
+    }
+    else if (ui->comboBox_4->currentText()=="Rura O")
+    {
+        ui->doubleSpinBox_3->setEnabled(false);
+        ui->doubleSpinBox_4->setEnabled(true);
+        ui->label_8->setText("długość");
+    }
+    else if (ui->comboBox_4->currentText()=="Blacha")
+    {
+        ui->doubleSpinBox_3->setEnabled(true);
+        ui->doubleSpinBox_4->setEnabled(false);
+        ui->label_8->setText("grubość");
+    }
+}
+
+void MainWindow::on_pushButton_5_clicked()
+{
+    double a=ui->doubleSpinBox_2->value();
+    double b=ui->doubleSpinBox_3->value();
+    double c=ui->doubleSpinBox_4->value();
+    double d=ui->doubleSpinBox_5->value();
+    double e=ui->doubleSpinBox_7->value();
+    double f=ui->doubleSpinBox_9->value();
+
+    if (ui->comboBox_4->currentText()=="Rura []")
+    {
+    double wynik=(((a*b)/1000000)-((a-(2*c))*(b-(2*c)))/1000000)*((d/1000)*e);
+    ui->doubleSpinBox_6->setValue(wynik);
+    }
+    else if (ui->comboBox_4->currentText()=="Rura O")
+    {
+        double wynik2=(((a*a*f)/1000000/4)-((a-(2*c))*(a-(2*c))*f/1000000/4))*((d/1000)*e);
+        ui->doubleSpinBox_6->setValue(wynik2);
+    }
+    else if (ui->comboBox_4->currentText()=="Blacha")
+    {
+        double wynik3=(((a*b)/1000000)*(d/1000)*e);
+        ui->doubleSpinBox_6->setValue(wynik3);
+    }
+}
