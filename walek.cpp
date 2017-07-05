@@ -481,6 +481,101 @@ void MainWindow::sprawdzanie_walka_g()
 
 void MainWindow::sprawdzanie_walka_h()
 {
+if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,002\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,025\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,025\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,003\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,004\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,004\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,005\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,006\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h3" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,008\n+0");
+    }
+    
+    //h4
+{
+if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=2)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,003\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=6)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,004\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=10)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,004\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=18)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,005\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=30)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,006\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=50)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,007\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=80)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,008\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=120)
+    {
+        ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,010\n+0");
+    }
+    else if (ui->comboBox_3->currentText()=="h4" && ui->doubleSpinBox_12->value()<=180)
+    {
+       ui->label_4->setText(ui->doubleSpinBox_12->text());
+        ui->label_3->setText("-0,012\n+0");
+    }
+//h5
+{
     if (ui->comboBox_3->currentText()=="h5" && ui->doubleSpinBox_12->value()<=2)
     {
         ui->label_4->setText(ui->doubleSpinBox_12->text());
@@ -504,7 +599,7 @@ void MainWindow::sprawdzanie_walka_h()
     else if (ui->comboBox_3->currentText()=="h5" && ui->doubleSpinBox_12->value()<=30)
     {
         ui->label_4->setText(ui->doubleSpinBox_12->text());
-        ui->label_3->setText("-0,008\n+0");
+        ui->label_3->setText("-0,009\n+0");
     }
     else if (ui->comboBox_3->currentText()=="h5" && ui->doubleSpinBox_12->value()<=50)
     {
@@ -804,7 +899,7 @@ void MainWindow::sprawdzanie_walka_h()
     else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=80)
     {
         ui->label_4->setText(ui->doubleSpinBox_12->text());
-        ui->label_3->setText("-0,19\n+0");
+        ui->label_3->setText("-0,190\n+0");
     }
     else if (ui->comboBox_3->currentText()=="h11" && ui->doubleSpinBox_12->value()<=120)
     {
